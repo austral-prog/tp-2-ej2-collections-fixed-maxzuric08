@@ -2,7 +2,7 @@ package com.collections;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -14,8 +14,8 @@ public class ListsTest {
     public void testIndexOf() {
         List<String> colors = List.of("Red", "Green", "White", "Black", "Pink", "Yellow", "Black");
 
-        assertEquals(3, Lists.indexOf("Black", colors));
-        assertEquals(-1, Lists.indexOf("Blue", colors));
+        assertEquals(3, Lists.IndexOf("Black", colors));
+        assertEquals(-1, Lists.IndexOf("Blue", colors));
     }
 
     // Tests for index_of_by_index
